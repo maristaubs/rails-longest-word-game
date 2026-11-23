@@ -8,3 +8,23 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+.letters {
+  display: flex;
+  gap: 14px;
+  margin: 8px 0 32px;
+}
+
+.letter {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3b87d6;
+  border: 1px solid #2a6fb5;
+  color: white;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
